@@ -1,0 +1,78 @@
+html,body{
+    margin:0;
+    padding:0;
+  }
+  .cuerpoDisney{
+      background-image: url("https://i.imgur.com/s85FZkc.png");
+    width:100%;
+    height:100vh;
+  }
+  
+  .logIn{
+    padding:0px 20px;
+    display:flex;
+    justify-content:flex-end;
+    font-family: "Arial";
+    color:#7f7d87;
+    
+  }
+  .logIn p a{
+    text-decoration:none;
+    color:#7f7d87;
+  }
+  
+  
+  .disneyLogo{
+    margin-top:100px;
+    display:flex;
+    justify-content:center
+  }
+  
+  .disneyLogo img{
+    
+    width:20%;
+    height: 20%;
+  }
+  
+  .miembros{
+    display:flex;
+    justify-content:space-between;
+    margin:1% 10%
+  }
+  
+  .miembros img{
+     width:20%;
+     height: 20%;
+  }
+  
+  .buttonInfo {
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+  }
+  
+  .buttonInfo button{
+    cursor:pointer;
+    padding: 20px;
+    border:none;
+    border-radius:5px;
+    color:white;
+    background:#299aff;
+  }
+  
+  .elCopy{
+    display:flex;
+    padding:10px 10%;
+    justify-content:space-around;
+    align-items:flex-end;
+    height:30%;
+    
+    
+  }
+  
+  .elCopy a{
+    font-family:"Arial";
+    font-size:10px;
+    color:#7f7d87;
+    text-decoration:none;
+  }
